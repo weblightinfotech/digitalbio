@@ -12,7 +12,7 @@ body {
       padding: 80px 20px;
     }
     .profile-img img {
-      width: 300px;
+      width: 120px;
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
@@ -57,6 +57,7 @@ body {
       color: #444;
 
     }
+
 
 
 
