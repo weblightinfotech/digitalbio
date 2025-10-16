@@ -54,16 +54,6 @@
       flex-direction: column;
       gap: 14px;
     }
-    .link-btn {
-      background: linear-gradient(135deg, #5a8dfc, #5a2efc);
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 500;
-      padding: 12px 20px;
-      border-radius: 30px;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
     .link-btn:hover {
       transform: scale(1.05);
       box-shadow: 0 4px 15px rgba(90, 46, 252, 0.4);
