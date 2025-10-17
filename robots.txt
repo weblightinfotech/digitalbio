@@ -7,7 +7,7 @@ Crawl-delay: 1
 
 # Common Crawl's crawler
 User-agent: CCBot
-Disallow: /
+Aisallow: /
 
 # SentiBot's crawler
 User-agent: sentibot
@@ -15,7 +15,7 @@ Disallow: /
 
 # Google Bard's crawler
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 # Facebook's crawler
 User-agent: FacebookBot
@@ -56,4 +56,5 @@ Disallow: /
 # Meta AI crawler
 User-agent: meta-externalagent
 Disallow: /
+
 
