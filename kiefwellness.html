@@ -53,19 +53,12 @@
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: #6b2e14;
-    color: white;
-    font-size: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 15px;
-    box-shadow: 0 0 20px #6b2e14;
-}
+.profile-img img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
 </style>
 	<!--end-->
    <script type="application/ld+json">
@@ -94,7 +87,9 @@
 
   <div class="container">
     <div class="profile">
-      <div class="avatar">K</div>
+        <div class="profile-img">
+      <img src="https://pbs.twimg.com/profile_images/1843995991701065728/Pd-CXH5g.jpg" alt="Kief Wellness">
+    </div>
       <h1>Kief Wellness</h1>
       <p>Kief Wellness is a brand that sells a variety of Ayurvedic (natural and herbal) health supplements in India.</p>
     </div>
