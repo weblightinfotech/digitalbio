@@ -54,19 +54,12 @@
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: #ffca16;
-    color: white;
-    font-size: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 15px;
-    box-shadow: 0 0 20px #ffca16;
-}
+ .profile-img img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
 </style>
 	<!--end-->
    <script type="application/ld+json">
@@ -95,7 +88,9 @@
 
   <div class="container">
     <div class="profile">
-      <div class="avatar">W</div>
+       <div class="profile-img">
+      <img src="https://digibio.link/digitalbiolink.png" alt="Digital Bio-Link">
+    </div>
       <h1>Web Light Infotech</h1>
       <p>Web Light Infotech is a result-driven digital marketing and web design company in India.</p>
     </div>
