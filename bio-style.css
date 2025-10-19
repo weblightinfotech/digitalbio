@@ -56,5 +56,8 @@
     }
     .link-btn:hover {
       transform: scale(1.05);
-      box-shadow: 0 4px 15px rgba(90, 46, 252, 0.4);
+      box-shadow: 0 4px 15px #ffffff;
+    }
+    a.link-btn {
+    box-shadow: 0 0 5px #ffffff;
     }
