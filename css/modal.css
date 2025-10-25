@@ -1,0 +1,53 @@
+        /* The Modal (popup) */
+        .modal {
+            /* Initially hidden by default */
+            display: none; 
+            /* Stay in place */
+            position: fixed; 
+            /* Full width and height */
+            z-index: 1000; /* High z-index to ensure it's on top */
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            /* Black background with opacity */
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.7); 
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            /* Center the box */
+            background-color: #fefefe;
+            margin: 5% auto; /* 5% from the top for a higher placement */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 90%; 
+            max-width: 700px; 
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            /* Style to look more like the popup in the video */
+            border-left: 5px solid #d9534f; /* Red/Orange sidebar */
+        }
+        
+        .modal-content h2 {
+            color: #d9534f;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        /* The Close Button (X) */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
